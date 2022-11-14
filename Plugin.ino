@@ -4,6 +4,8 @@
 #define PLUGINFILE2(a, b) stringify(a/Plugins/b)
 #define PLUGINFILE(a, b) PLUGINFILE2(a, b)
 
+#define SKETCH_PATH ./
+
 #ifdef PLUGIN_001
 #include PLUGINFILE(SKETCH_PATH,Plugin_001.c)
 #endif

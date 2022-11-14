@@ -16,11 +16,14 @@
 #define PRINT_BUFFER_SIZE                 60                                   // Maximum number of characters that a command should print in one go via the print buffer.
 
 // to include Config_xx.c files:
+
+#define SKETCH_PATH ./
+
 #define stringify(x) #x
 #define CONFIGFILE2(a, b) stringify(a/Config/b)
 #define CONFIGFILE(a, b) CONFIGFILE2(a, b)
 #define CONFIG_FILE Config_01.c
-#include CONFIGFILE(SKETCH_PATH,CONFIG_FILE)
+#include CONFIGFILE(./,CONFIG_FILE)
 
 #define VALUE_PAIR                      44
 #define VALUE_ALLOFF                    55

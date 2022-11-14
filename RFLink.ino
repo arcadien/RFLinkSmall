@@ -40,7 +40,7 @@
 // Geef in onderstaande "define" regel het volledige pad op waar de .ino bestanden zich bevinden die je nu geopend hebt.
 // ================================================================================================================================
 
-#define SKETCH_PATH S:\Software\RFLink\source\RFLink R33 Small2\RFLink
+#define SKETCH_PATH ./
 
 // ================================================================================================================================
 // IMPORTANT NOTE: This code can run on an Arduino Uno / Nano / Pro Mini / Nodo Small / Arduino Nodo 1.6,1.7
